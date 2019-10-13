@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tạo một trang web với một nút</title>
+</head>
+<body>
+<scrip>
+<button type="button" onclick="alert('Xin chào!');">Click Me!</button>
+</scrip>
+</body>
+</html>
