@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<!--Bước 1: Tạo một tài liệu HTML và dùng các thẻ <form>, <input>, <select> và <option> để tạo giao diện như mô tả.-->
+
+<!--    Bước 2: Viết một hàm để chuyển đổi tiền. Hàm này sẽ lấy các giá trị từ form và trả về giá trị sau khi đã chuyển đổi.-->
+
+<!--    Bước 3: Gọi hàm ở sự kiện click chuột của nút Convert.-->
+<form>
+  Amount:<br>
+ <input type="text" id="amount" value="">
+  From currency:
+  <select id="from">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+  </select>
+  To currency:
+  <select id="to">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+  </select>
+  <input type="button" onclick="convert()" value="convert">
+</form>
+<script>
+    function convert() {
+        let result;
+        let amount = document.getElementById("amount").value;
+           if (document.getElementById("from").value === "VND" && document.getElementById("to").value==="USD") {
+               result = amount / 23000;
+           }else {
+              if (document.getElementById("from").value === "USD" && document.getElementById("to").value ==="VND"){
+               result = amount * 23000;
+              }
+           }
+
+        document.write("Result:" + result);
+    }
+</script>
+</body>
+</html>

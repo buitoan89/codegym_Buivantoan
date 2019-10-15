@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bước 1: Tạo một tài liệu HTML và sử dụng các thẻ <form>, <input>, <button> để tạo giao diện như yêu cầu.-->
+<!--    Bước 2: Viết 4 hàm để lấy giá trị từ form, tính toán và trả về kết quả tương ứng với 4 phép tính.-->
+
+<!--    Bước 3: Gọi hàm tương ứng khi nhấn chuột vào nút.-->
+
+<!--    Yêu cầu mở rộng:-->
+<!--    Chúng ta có sử dụng 1 hàm duy nhất thay cho 4 hàm ở trên không?-->
+<!--    Nâng cấp ứng dụng để trở nên cao cấp hơn. Có thể tham khảo giao diện calculator của Google.-->
+<form>
+    Caculator:<br>
+    <input type="text" id="num1" value="">
+    <input type="text" id="num2" value=""><br><br>
+    <input type="button" value="Addition(+)" onclick="Addition()">
+    <input type="button" value="Subtraction(-)" onclick="Subtraction()">
+    <input type="button" value="Multiplication(x)" onclick="Multiplication()">
+    <input type="button" value="Division(/)" onclick="Division()">
+</form>
+<script>
+
+    function Addition() {
+        let a = parseInt(document.getElementById("num1").value);
+        let b = parseInt(document.getElementById("num2").value);
+        result = a + b;
+
+        document.write("Result :" + result);
+
+    }
+     function Subtraction() {
+         let a = parseInt(document.getElementById("num1").value);
+         let b = parseInt(document.getElementById("num2").value);
+         result = a - b;
+
+         document.write("Result :" + result);
+     }
+    function Multiplication() {
+        let a = parseInt(document.getElementById("num1").value);
+        let b = parseInt(document.getElementById("num2").value);
+        result = a * b;
+
+        document.write("Result :" + result);
+    }
+    function Division() {
+        let a = parseInt(document.getElementById("num1").value);
+        let b = parseInt(document.getElementById("num2").value);
+        result = a / b;
+        document.write("Result :" + result);
+    }
+</script>
+</body>
+
+</html>
