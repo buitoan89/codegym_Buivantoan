@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Câu lệnh switch-case</title>
+</head>
+<body>
+<form>
+    <input type="text" id="nhap_ngay" >
+    <input type="button" value="Tính số ngày" onclick="tinhsongay()">
+    <p id="so_ngay"></p>
+    <script>
+        function tinhsongay() {
+            let a = parseInt(document.getElementById("nhap_ngay").value);
+            switch (a) {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                document.getElementById("so_ngay").innerHTML="Tháng" + a + "có 31 ngày";
+                break;
+                case 2:
+                document.getElementById("so_ngay").innerHTML="Tháng" + a +"có 28 và 29 ngày";
+                break;
+                default:
+                document.getElementById("so_ngay").innerHTML="Tháng" + a +"có 30 ngày";
+
+            }
+        }
+    </script>
+</form>
+</body>
+</html>
