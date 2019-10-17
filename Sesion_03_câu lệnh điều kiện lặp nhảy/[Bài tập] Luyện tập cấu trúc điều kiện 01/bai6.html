@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai6</title>
+</head>
+<body>
+<script>
+    let doanhso = parseInt(prompt('Nhập doanh so :'));
+
+    if (doanhso < 200) {
+        let hoahong = doanhso * 0.03;
+        alert('Số hoa hồng nhận được :' + hoahong);
+    } else if (doanhso < 500) {
+        let hoahong = (200 * 0.03) + ((doanhso - 200) * 0.05);
+        alert('Số hoa hồng nhận được :' + hoahong);
+    } else {
+        let hoahong = ((200 * 0.03) + (500 - 200) * 0.05 + (doanhso - 500) * 0.1);
+        alert('Số hoa hồng nhận được :' + hoahong);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let baikiemtra = parseInt(prompt('Nhập điểm bài kiểm tra :'));
+    let baigiuaky = parseInt(prompt('Nhập điểm bài giữa ky :'));
+    let baicuoiky = parseInt(prompt('Nhập điểm bài cuối ky :'));
+    let diemtrungbinh = (baikiemtra + baigiuaky + baicuoiky)/3;
+    diemtrungbinh1= Math.round(diemtrungbinh * 100)/100;
+
+    if (diemtrungbinh1 <= 6 ){
+        alert('xếp loại trung bình');
+    }else if (6<diemtrungbinh1<=8) {
+        alert('xếp loại khá ');
+    }else {
+        alert('xếp loại giỏi');
+    }
+</script>
+</body>
+</html>
