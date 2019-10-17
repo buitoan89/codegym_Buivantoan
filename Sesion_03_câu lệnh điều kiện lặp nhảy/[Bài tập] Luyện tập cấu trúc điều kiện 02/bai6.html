@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai6</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('nhập a'));
+    let b = parseInt(prompt('nhập b'));
+    if (a === 0 && b === 0){
+        document.write('phương trinh vô số nghiệm');
+    }else if (a === 0 && b!==0){
+        document.write('phương trình vô nghiệm')
+    } else {
+        let x = -b/a;
+        document.write('phương trình có nghiệm :' + x);
+    }
+
+</script>
+</body>
+</html>
