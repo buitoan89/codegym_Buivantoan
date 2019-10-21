@@ -2,11 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bai11</title>
+    <title>Viết chương trình tính thuế thu nhập cá nhân.</title>
 </head>
 <body>
-   TNCN = TNTT * TS
-   TNTT = TNCT - KGT
-   TNCT = TTN - MT
+<!--Bậc thuế	Phần thu nhập tính thuế/tháng (triệu đồng)	Thuế suất (%)	Công thức tính số thuế phải nộp-->
+<!--1	Đến 5	5	Thu nhập tính thuế (TNTT) x 5%-->
+<!--2	Trên 5 đến 10	10	TNTT x 10% - 250.000 đ-->
+<!--3	Trên 10 đến 18	15	TNTT x 15% - 750.000 đ-->
+<!--4	Trên 18 đến 32	20	TNTT x 20% - 1.650.000 đ-->
+<!--5	Trên 32 đến 52	25	TNTT x 25% - 3.250.000 đ-->
+<!--6	Trên 52 đến 80	30	TNTT x 30% - 5.850.000 đ-->
+<!--7	Trên 80	35	TNTT x 35% - 9.850.000 đ-->
+<!--Thu nhập tính thuế = Tổng thu nhập – (Các khoản miễn thuế + Các khoản giảm trừ + Các khoản không chịu thuế)-->
+
+<script>
+    let songuoi = parseInt(prompt("số người phụ thuộc"));
+    let luongcoban = parseInt(prompt("nhập lương cơ bản"));
+    let tongluong = parseFloat(prompt("tổng tiền lương"));
+    let giamtrubanthan = 9;
+    let nguoiphuthuoc = songuoi *3.6;
+    let tienbaohiem = luongcoban * 0.105;
+    let thunhapTinhthue1 = tongluong- giamtrubanthan-nguoiphuthuoc-tienbaohiem;
+    let thunhapTinhthue =Math.round(thunhapTinhthue1*10000)/10000;
+    document.write(thunhapTinhthue);
+
+    if (thunhapTinhthue<0){
+        alert("không phải nộp thuế")
+    }else {
+        if (thunhapTinhthue<=5) {
+            let thuethunhapCN= thunhapTinhthue*0.05
+            alert("Thuế thu nhập cá nhân phải nộp" + thuethunhapCN);
+        }else if (thunhapTinhthue<=10){
+            thuethunhapCN= thunhapTinhthue*0.1
+            alert("Thuế thu nhập cá nhân phải nộp" + thuethunhapCN);
+        }else if (thunhapTinhthue<=18){
+            thuethunhapCN= thunhapTinhthue*0.15
+            alert("Thuế thu nhập cá nhân phải nộp" + thuethunhapCN);
+        }else if (thunhapTinhthue<=32){
+            thuethunhapCN = thunhapTinhthue*0.2
+            alert("Thuế thu nhập cá nhân phải nộp" + thuethunhapCN);
+        }else {
+            thuethunhapCN = thunhapTinhthue*0.25
+            alert("Thuế thu nhập cá nhân phải nộp" + thuethunhapCN);
+        }
+    }
+</script>
 </body>
 </html>
