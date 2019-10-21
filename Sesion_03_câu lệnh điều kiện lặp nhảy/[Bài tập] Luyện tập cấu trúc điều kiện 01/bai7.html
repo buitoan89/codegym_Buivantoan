@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại cho một hộ gia đình với các thông số đã cho</title>
+</head>
+<body>
+<script>
+    let sophut= parseInt(prompt("số phút nhập vào :"))
+    let phicoban= 25;
+
+    if (sophut<50){
+        phithem= sophut*600;
+
+    }else if (sophut<150) {
+        phithem = 50*600 + (sophut-50)*400
+    }else {
+        phithem = 50*600 + 150*400 +(sophut-150)*200;
+    }
+    tongphi= phicoban + phithem*0.001
+    alert("cước điện thoại phải trả:"+ tongphi);
+
+</script>
+</body>
+</html>
