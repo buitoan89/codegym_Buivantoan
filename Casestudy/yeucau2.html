@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeu cau2</title>
+</head>
+<body>
+<script>
+    let name = "Bui Van Toan";
+    let id_card = "123456789";
+    let birth = "08/10/1989";
+    let email = "buivantoan@gmail.com";
+    let address = "Đà Nẵng";
+    let type_custom = "Diamond";
+    let acconpanying = 2;
+    let type_room = "Vip";
+    let discuont = 10;
+    let type_service = "Villa";
+    let rent_day = 5;
+    let totalpay = 4333;
+    //khai báo hiển thị thông tin customer
+    let text = "1.Name customer :" + name + "\n" +
+               "2.Id card customer :" + id_card + "\n" +
+               "3.Birthday customer :" + birth + "\n" +
+               "4.Email customer:" + email + "\n" +
+               "5.Adrress customer :" + address + "\n" +
+               "6.Type customer :" + type_custom + "\n" +
+               "7.Discount :" + discuont + "\n" +
+               "8.number of Accompanying :" + acconpanying + "\n" +
+               "9.Type room :" + type_room + "\n" +
+               "10.Rent day :" + rent_day + "\n" +
+               "11.Type service :" + type_service + "\n" +
+               "12.Total pay :" + totalpay;
+    //xử lý ngày tháng để tính tuổi
+    let current = new Date().getFullYear();
+    let birthday = new Date(birth).getFullYear();
+    let ageCustomer = parseInt(current - birthday);
+    let giam_tuoi ="";
+    if (ageCustomer>=30 && address ==="Đà Nẵng") {
+        giam_tuoi= 2;
+    }else if (ageCustomer<30 && ageCustomer>=20 && address==="Đà Nẵng"){
+        giam_tuoi= 1;
+    }
+    //xử lý loại dịch vụ
+    if (type_service === "Villa"){
+        type_service = 500;
+    } else if (type_service === "House") {
+        type_service = 300;
+    }else {
+        type_service = 100;
+    }
+    //giảm giá địa chỉ
+    let giam_add = "";
+    if (address === "Đà Nẵng"){
+        giam_add = 20;
+    }else if (address === "Huế") {
+        giam_add =  10;
+    }else if (address === "Quảng Nam"){
+        giam_add =  5;
+    }
+    //giảm giá ngày
+    let giam_rentday ="";
+    if (rent_day > 7){
+        giam_rentday =  30
+    }if (rent_day <= 7 && rent_day >= 5){
+        giam_rentday =  20
+
+    } else {
+        giam_rentday =  10
+    }
+//giảm giá loại khách
+    let giam_customer ="";
+    if (type_custom ==="Diamond"){
+        giam_customer = 15;
+    }else if (type_custom ==="Platium") {
+        giam_customer = 10;
+    }else if (type_custom ==="Gold") {
+        giam_customer= 5;
+    }else if (type_custom==="Silver") {
+        giam_customer =2;
+    }else {
+        giam_customer =0;
+    }
+    //bảng chọn danh mục
+    let choose = parseInt(prompt("1.Show Information Customer" + "\n" +
+                               "2.Edit Information Customer." + "\n" +
+                               "3.Show the amount to be paid after discount"));
+    switch (choose) {
+        //hiển thị thông tin customer
+        case 1:
+            alert(text);
+            break;
+        case 2:
+            //chỉnh sửa thông tin customer
+            edit = parseInt(prompt(text));
+            switch (edit) {
+                case 1: name = prompt("1.Name customer :");break;
+                case 2: id_card = prompt("2.Id card customer :");break;
+                case 3: birth = prompt("3.Birthday customer :");break;
+                case 4: email = prompt("4.Email customer:");break;
+                case 5: address = prompt("5.Adrress customer :");break;
+                case 6: type_custom = prompt("6.Type customer :");break;
+                case 7: discuont = prompt("7.Discount :");break;
+                case 8: acconpanying = prompt("8.number of Accompanying :");break;
+                case 9: type_room = prompt("9.Type room :");break;
+                case 10: rent_day = prompt("10.Rent day :");break;
+                case 11: type_service = prompt("11.Type service :");
+                    if (type_service === "Villa"){
+                        type_service = 500;
+                    } else if (type_service === "House") {
+                        type_service = 300;
+                    }else {
+                        type_service = 100;
+                    }
+                break;
+            }
+            //khai báo lại thông tin customer
+             text = "1.Name customer :" + name + "\n" +
+                "2.Id card customer :" + id_card + "\n" +
+                "3.Birthday customer :" + birth + "\n" +
+                "4.Email customer:" + email + "\n" +
+                "5.Adrress customer :" + address + "\n" +
+                "6.Type customer :" + type_custom + "\n" +
+                "7.Discount :" + discuont + "\n" +
+                "8.number of Accompanying :" + acconpanying + "\n" +
+                "9.Type room :" + type_room + "\n" +
+                "10.Rent day :" + rent_day + "\n" +
+                "11.Type service :" + type_service + "\n" +
+             //hiển thị lại thông tin customer
+            alert(text);break;
+        case 3:
+            //số tiền phải trả sau khi giảm
+            totalpay_basic = type_service * rent_day * (1 - discuont/100);
+            totalpay = totalpay_basic - giam_tuoi - giam_customer - giam_rentday - giam_add;
+
+            alert("Total pay after discount condition :" + totalpay);
+            break;
+    }
+
+</script>
+</body>
+</html>
