@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hiển thị các số nguyên tố đầu tiên</title>
+</head>
+<body>
+<script>
+    let soluong = parseInt(prompt("How many number you want enter: "));
+    let count = 0;
+    let number = 2;
+
+    while (true) {
+        if (number === 2) {
+            document.write(number + " ");
+            count++;
+            number++;
+
+        }
+        if (checkprime(number)) {
+            count++;
+            document.write(number+ " ");
+        }
+        if (count === soluong)
+            break;
+        number+=2;
+    }
+    function checkprime(soluong) {
+        for (let i = 2; i <= Math.sqrt(soluong); i++) {
+            if (soluong % i == 0) return false;
+        }
+        return true;
+        }
+
+    // let number = parseInt(prompt("nhập number"));
+    // let count = 0;
+    // let n = 2;
+    // while (count < number) {
+    //     for (i = 2; i <= n;i++) {
+    //      //   document.write("i"+i);
+    //         if (n % i == 0 && n > 2) {
+    //             break;
+    //         }
+    //             document.write(n);
+    //
+    //
+    //     }
+    //     count++;
+    //     n++;
+    // }
+    //
+    // // for (N=2;N<=number;N++){
+    //             if (N===2){
+    //                 document.write("là số nguyên tố" + N);
+    //
+    //             }else if (N%)
+    //
+    // }
+
+</script>
+</body>
+</html>

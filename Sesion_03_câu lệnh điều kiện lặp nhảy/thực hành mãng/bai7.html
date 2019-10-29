@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V. Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng (Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)</title>
+</head>
+<body>
+<p id="tr"></p>
+<p id="tr6"></p>
+<p id="tr7"></p>
+<p id="tr8"></p>
+<script>
+
+    let name_array = new Array(3);
+
+    for (let i = 0; i < 3; i++) {
+        name_array[i] = parseInt(prompt(""));
+        document.getElementById("tr").innerHTML = name_array;
+
+    }
+    let x = name_array;
+
+    let v = new Array(2);
+
+    for (let q = 0; q < 2; q++) {
+        v[q] = parseInt(prompt("gia tri mảng 2"));
+       // document.getElementById("tr6").innerHTML =  v;
+
+    }
+   // let r = [];
+    for (let y = 0; y<x.length; y++){
+        for (let n = 0; n<v.length;n++){
+            if (x.indexOf(v[n]===1)){
+                x[v[n]]= 0;
+                //v.length = x[v[n]];
+
+                document.getElementById("tr7").innerHTML = x;
+                // las--;
+
+            }else {
+                document.getElementById("tr7").innerHTML = "V is not in the array";
+            }
+        }
+    }
+
+
+
+</script>
+</body>
+</html>

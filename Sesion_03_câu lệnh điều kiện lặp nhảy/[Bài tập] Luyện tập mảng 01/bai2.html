@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau. Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.</title>
+</head>
+<body>
+<p id="tr"></p>
+<p id="tr2"></p>
+<p id="tr3"></p>
+<p id="tr4"></p>
+<p id="tr5"></p>
+<p id="tr6"></p>
+<p id="tr7"></p>
+<p id="tr8"></p>
+<p id="tr9"></p>
+<p id="tr10"></p>
+<script>
+    let name_array = new Array(3);
+
+    for (i = 0; i < 3; i++) {
+        name_array[i] = parseInt(prompt(""));
+        document.getElementById("tr").innerHTML = name_array;
+
+    }
+
+    let x = name_array;
+    let max = x[0];
+    let index = 0;
+    for (j = 0; j < 3; j++) {
+        if (x[j] > max) {
+            max = x[j];
+            index = j;
+        }
+    }
+    document.getElementById("tr2").innerHTML = "giá trị lớn nhất :" + max + "sô đếm :" + index;
+    
+    let avg = 0;
+    let sum = 0;
+    for (k=0;k<x.length;k++){
+        sum = sum + x[k];
+    }
+    avg = sum/x.length;
+
+    document.getElementById("tr3").innerHTML = " giá trị trung bình của các phần tử trong mảng là :"+ avg;
+    
+
+    let dau = 0;
+    let cuoi = x.length - 1;
+    while (dau<cuoi){
+        trunggian = x[dau];
+        x[dau] = x[cuoi];
+        x[cuoi] = trunggian;
+        dau++;
+        cuoi--;
+    document.getElementById("tr4").innerHTML = "đảo ngược phần tử của mảng :" + x;
+    }
+
+    let dem = 0;
+    for (l = 0; l < x.length; l++) {
+        if (x[l] < 0) {
+            dem++;
+
+        }
+    }
+    document.getElementById("tr5").innerHTML = "số nguyên âm của một chuỗi là :" + dem;
+
+
+
+    let v = new Array(2);
+
+    for (q = 0; q < 2; q++) {
+        v[q] = parseInt(prompt("gia tri mảng 2"));
+        document.getElementById("tr6").innerHTML =  v;
+
+    }
+
+  //  las = 0;
+    for (y = 0; y<x.length; y++){
+        for (n = 0; n<v.length;n++){
+            if (x.indexOf(v[n]===1)){
+
+                document.getElementById("tr7").innerHTML = "V is in the array" ;
+                // las--;
+
+            }else {
+                document.getElementById("tr7").innerHTML = "V is not in the array";
+            }
+        }
+    }
+
+
+    let zx = 3;
+    let xoa = 0;
+    while (x.indexOf(zx)!=-1){
+        for (let z=0;z<x.length-1;z++){
+            x[z]=x[z+1];
+        }
+        xoa++;
+    }
+    document.getElementById("tr8").innerHTML = x;
+
+//xếp mảng theo thứ tự giảm dần
+    x.sort(function(f, g){return g - f});
+    document.getElementById("tr9").innerHTML = x;
+//xếp mảng theo thứ tự tăng dần
+    x.sort(function(f, g){return f - g});
+    document.getElementById("tr9").innerHTML = x;
+
+
+    // Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử, gọi là mảng a và b.
+    //     Mảng c là một mảng được khai báo gồm 20 phần tử số nguyên.
+    //     Chương trình sẽ lưu các phần tử được nối từ hai mảng b và a vào mảng c. Hiển thị mảng c.
+
+ mang1 = [1,2,3];
+ mang2 = [2,3,4];
+ mang3 = new Array();
+ mang3.push(mang1,mang2);
+    document.getElementById("tr10").innerHTML = mang3;
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

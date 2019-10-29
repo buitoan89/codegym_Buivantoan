@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Luyện tập với cấu trúc if...else...if</title>
+</head>
+<body>
+<script>
+    let usename = prompt("Who is there ?","");
+    let pass = prompt("Password ?");
+    //kiem tra gia tri
+    if (usename == 'Admin'){
+        let pass = prompt("Password ?");
+        if (pass == 'TheMaster') {
+            alert('Welcome!');
+        } else if (pass == "") {
+            alert('Canceled.');
+        } else {
+            alert('Wrong password');
+        }
+    } else if(usename == "") {
+        document.write("Canceled");
+    } else {
+        document.write("I dont now you")
+    }
+
+</script>
+</body>
+</html>

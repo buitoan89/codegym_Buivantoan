@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Từ điển</title>
+</head>
+<body>
+<form>
+    Nhập từ:<br>
+    <input type="text" id="nhaptu" value="">
+    From :
+    <select id="from">
+        <option value="EN">EN</option>
+        <option value="VN">VN</option>
+    </select>
+    To :
+    <select id="to">
+        <option value="EN">EN</option>
+        <option value="VN">VN</option>
+    </select>
+    <input type="button" onclick="convert()" value="convert">
+    <p id="hienthi"></p>
+</form>
+<script>
+   //  let  tim = "cat";
+   function convert() {
+       let ENL = ["dog", "cat", "birth", "dusk", "big"];
+       let VIE = ["chó", "mèo", "chim", "vịt", "lợn"];
+       let tim = document.getElementById("nhaptu").value;
+
+       if (document.getElementById("from").value === "EN" && document.getElementById("to").value === "VN") {
+           result = VIE[ENL.indexOf(tim)];
+           document.getElementById("hienthi").innerHTML= result;
+
+       } else if (document.getElementById("from").value === "VN" && document.getElementById("to").value === "EN") {
+           result = ENL[VIE.indexOf(tim)];
+           document.getElementById("hienthi").innerHTML= result;
+       }
+   }
+
+</script>
+</body>
+</html>
