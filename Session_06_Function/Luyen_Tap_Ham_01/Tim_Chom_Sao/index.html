@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let star = prompt('enter name star', '');
+    let arrStar = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let constellation = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    function findStar() {
+        for (let i=0; i<arrStar.length; i++){
+            if (star === arrStar[i]){
+                document.write(arrStar[i] + "la sao thuoc chom " + constellation[i]);
+                return;
+            }
+        }
+        document.write("khong tim thay");
+    }
+    console.log(findStar());
+</script>
+</body>
+</html>

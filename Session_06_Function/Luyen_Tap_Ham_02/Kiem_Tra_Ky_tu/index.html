@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [1, 6, 7, 8, 4, 2, 1, 6, 7, 1];
+    let b = Number(prompt("nhập số"));
+    let count = 0;
+
+    function test(x, y) {
+        for (let i = 0; i < x.length; i++) {
+            for (let j = 0; j < x.length; j++) {
+                if (x.indexOf(y) != -1) {
+                    if (a[i] == y) {
+                        count++
+                    }
+                    break;
+                }
+            }
+        }
+        if (count === 0){
+            alert("Khong xuất hiện")
+        }else {
+            alert("Số lần xuất hiện là: " + count);
+        }
+    }
+
+</script>
+</body>
+</html>

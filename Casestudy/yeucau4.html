@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeucau4</title>
+</head>
+<body>
+<script>
+    let choose = parseInt(prompt("1.Add new customer" + "\n" +
+        "2.Delete customer"));
+    switch (choose) {
+        case 1:
+            let mangname = new Array();
+            for (let i = 1; i < 3; i++) {
+                let namecustomer = prompt("Enter name customer no" + i);
+                mangname.push(namecustomer);
+
+            }
+            g = '';
+            for (let j = 0; j < mangname.length; j++) {
+                g += (j + 1) + "." + mangname[j] + "\n";
+            }
+            alert(g);//in mangname theo thu tu
+            // strname = mangname.join(' ');
+            // alert(mangname);
+            // choose;
+            break;
+        case 2:
+            let mangdelete = ["hoang", "tu", "trinh", "phuong", "thanh"];
+            let k = '';
+            for (let j = 0; j < mangdelete.length; j++) {
+                k += (j + 1) + "." + mangdelete[j] + "\n";
+            }
+            //  alert(k);
+            let deletecustomer = parseInt(prompt("choose customer your Delete" + "\n" + k));
+            deletecustomer = deletecustomer - 1;
+            let h = '';
+            //    alert(deletecustomer);
+            for (let i = 0; i < mangdelete.length; i++) {
+                //  console.log(mangdelete[2]);
+                if (deletecustomer == i) {
+                    mangdelete.splice(i, 1);
+                }
+                h += (i + 1) + "." + mangdelete[i] + "\n";
+            }
+            alert(h);
+            break;
+
+    }
+</script>
+</body>
+</html>

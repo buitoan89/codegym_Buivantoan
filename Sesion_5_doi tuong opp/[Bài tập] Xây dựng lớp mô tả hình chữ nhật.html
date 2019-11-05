@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</title>
+</head>
+
+<body>
+<canvas id="myCanvas"
+        style="border:1px solid #c3c3c3;">
+    Your browser does not support the canvas element.
+</canvas>
+<script>
+    function Rectangle(dai, rong) {
+        this.dai = dai;
+        this.rong = rong;
+//ham tra ve ket qua
+    this.getdientich = function () {
+        return dai * rong;//chi khai bao thuat toan
+
+    }
+//ham tra ve ket qua
+    this.getchuvi = function () {
+        return (dai + rong)*2; //khai bao thuat toan
+    }
+    }
+
+
+    let rectangle = new Rectangle(120,310);
+    let dientich = rectangle.getdientich();
+    let chuvi = rectangle.getchuvi();
+    document.write( "dien tich"+ dientich +  "chu vi" + chuvi);
+
+    let canvas= document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,rectangle.dai,rectangle.rong);
+</script>
+</body>
+</html>

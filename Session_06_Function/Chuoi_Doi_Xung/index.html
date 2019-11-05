@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Input : <input type="text" id="inp"></p>
+<p><button type="button" onclick="check()">Check</button></p>
+<p id="dis"></p>
+<script>
+    function check() {
+        let inp = document.getElementById("inp");
+        let dis = document.getElementById("dis");
+        let st = inp.value;
+        if (st != "") {
+            let flag = 0;
+            for (let i = 0; i < st.length / 2; i++) {
+                if (st[i] != st[st.length - 1 - i]) {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 0) {
+                dis.innerText = st + " is a Palindrome";
+            } else {
+                dis.innerText = st + " isn't a Palindrome";
+            }
+            inp.value = "";
+            inp.focus();
+        } else {
+            alert("Don't let the input empty");
+            inp.focus();
+        }
+    }
+</script>
+</body>
+</html>

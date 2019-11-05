@@ -17,7 +17,7 @@
     let type_room = prompt("Enter type room","");
     let inputrent_day = prompt("Enter rent day","");
     let inputtype_service = prompt("Enter type service","");
-    let discuont = parseInt(inputdiscuont);
+    let discuont = parseFloat(inputdiscuont);
     let type_service = parseInt(inputtype_service);
     let rent_day = parseInt(inputrent_day);
     let paying = type_service * rent_day * (1 - discuont/100);

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>qlysanpahm</title>
+</head>
+<body>
+<div>
+    Thêm sản phẩm :
+</div>
+<br>
+<input type="text" id="text">
+<input type="button" id="add" value="Thêm" onclick="add(sosanpham)">
+<div>
+    Các sản phẩm :
+</div>
+<br>
+<input type="button" id="edit" value="Sửa" onclick="edit(sosanpham)">
+<input type="button" id="delete" value="Xoá" onclick="del(sosanpham)">
+<p id="sosp"></p>
+<script>
+    let sosanpham = ['Camry','Fiesta','CR-V','MPV','Mazda','Limousine','BMW','Bugatti','Ferrari'];
+    function danhsach(sosanpham) {
+        let g = '';
+        for (i=0;i<sosanpham.length;i++){
+            g += (i+1) + ': ' + sosanpham[i] + '<br>' ;
+        }
+        return g;
+    }
+    document.getElementById("sosp").innerHTML = danhsach(sosanpham);
+    function add(sosanpham) {
+        let a = document.getElementById("text").value;
+        sosanpham.push(a);
+        document.getElementById("sosp").innerHTML = danhsach(sosanpham);
+    }
+    function edit(sosanpham) {
+        let vitri = prompt("nhap vi tri can sua");
+        let edit = prompt("Nhap ten sna pham");
+        sosanpham[vitri-1] = edit;
+        document.getElementById("sosp").innerHTML = danhsach(sosanpham);
+    }
+    function del(sosanpham) {
+        let vitri = prompt("Nhap vi tri can xoa");
+        sosanpham.splice(vitri-1,1);
+        document.getElementById("sosp").innerHTML = danhsach(sosanpham);
+    }
+</script>
+</body>
+</html>

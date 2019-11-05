@@ -37,7 +37,7 @@
     let ageCustomer = parseInt(current - birthday);
     let giam_tuoi ="";
     if (ageCustomer>=30 && address ==="Đà Nẵng") {
-        giam_tuoi= 2;
+        giam_tuoi= 2;//discuontcuondtion +=2
     }else if (ageCustomer<30 && ageCustomer>=20 && address==="Đà Nẵng"){
         giam_tuoi= 1;
     }
@@ -53,6 +53,7 @@
     let giam_add = "";
     if (address === "Đà Nẵng"){
         giam_add = 20;
+
     }else if (address === "Huế") {
         giam_add =  10;
     }else if (address === "Quảng Nam"){

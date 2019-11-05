@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input oninput="binhphuong(this.value)" type="number">
+    <div id="output"></div>
+    <script>
+        function binhphuong(number) {
+            number=parseInt(number);
+            document.getElementById("output").innerHTML="kết quả :"+number*number;
+        }
+    </script>
+</body>
+</html>

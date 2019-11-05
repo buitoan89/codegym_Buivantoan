@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeucau5</title>
+</head>
+<body>
+<script>
+    let arrinfo = [];
+    let choose ;
+
+    function displayMainMenu() {
+
+         choose = parseInt(prompt("1.Add new customer" + "\n" +
+            "2.Display Infomation Customer" + "\n" +
+            "3.EditInfomationCustomer" + "\n" +
+            "4.Delete customer" + "\n" +
+            "5.Exit"));
+
+        switch (choose) {
+            case 1 :
+                addNewCustomer();
+                break;
+            case 2 :
+                displayCustomer();
+                break;
+        }
+    }
+
+
+
+    function addNewCustomer() {
+        let arrListCustomer = [];
+        let nameCustomer = prompt("Enter name customer", "");
+        let idCard = prompt("Enter id card customer", "");
+        let birth = prompt("Enter birthday customer", "");
+        let email = prompt("Enter email customer");
+        let address = prompt("Enter adrress customer");
+        let typeCustom = prompt("Enter type customer", "");
+        let discount = prompt("Enter discount", "");
+        let acconpanying = prompt("Enter number of Accompanying", "");
+        let typeRoom = prompt("Enter type room", "");
+        let rentDay = prompt("Enter rent day", "");
+        let typeService = prompt("Enter type service", "");
+
+        //  arrListCustomer.push(name,id_card,birth);
+        arrListCustomer.push(nameCustomer);
+        arrListCustomer.push(idCard);
+        arrListCustomer.push(birth);
+        arrListCustomer.push(email);
+        arrListCustomer.push(address);
+        arrListCustomer.push(typeCustom);
+        arrListCustomer.push(discount);
+        arrListCustomer.push(acconpanying);
+        arrListCustomer.push(typeRoom);
+        arrListCustomer.push(rentDay);
+        arrListCustomer.push(typeService);
+
+        arrinfo.push(arrListCustomer);
+        displayMainMenu();
+        //return arrListCustomer;
+    }
+
+    function displayCustomerInfo(index){
+        alert(
+         "infomation:\n" +
+            "\nName"+arrinfo[index][0]+
+            "\nidCard"+arrinfo[index][1]+
+            "\nbirth"+arrinfo[index][2]+
+            "\nemail"+arrinfo[index][3]+
+            "\naddress"+arrinfo[index][4]+
+            "\ntypeCustomer"+arrinfo[index][5]+
+            "\ndiscount"+arrinfo[index][6]+
+            "\nacconpanying"+arrinfo[index][7]+
+            "\ntypeRoom"+arrinfo[index][8]+
+            "\nrentDay"+arrinfo[index][9]+
+            "\ntypeService"+arrinfo[index][10]
+        )
+    }
+//let chooseInfo;
+    let result = "";
+      function displayCustomer() {
+          for (let i = 0 ; i<arrinfo.length;i++){
+             result+= "\n"+ (i+1)+"Name"+arrinfo[i][0] + "idCard"+arrinfo[i][1];
+          }
+          result+= "\n" + (arrinfo.length+1)  +"back menu" ;
+     let  chooseInfo = prompt(result);
+
+        if (chooseInfo === (arrinfo.length+1).toString() ){
+            displayCustomerInfo(Number.parseInt(chooseInfo)-1);
+        } else {
+            displayMainMenu()
+        }
+      }
+
+    // function displayCustomer() {
+    //     //   alert("ok");
+    //
+    //     let nameid = prompt("1.Name :" + name + "id_cart :" + "\n" + "2.Back to menu");
+    //     //
+    //     //     alert("ok");
+    //     //     // if (nameid = "2") {
+    //     //     //     return displayMainMenu();
+    //     //     // }
+    //     // }
+    //     //     let nameid = new displayCustomer();
+    // }
+    //
+    // switch (choose) {
+    //     case 1 :
+    //         addNewCustomer();
+    //         break;
+    //     case 2 :
+    //         displayCustomer();
+    //         break;
+    // }
+    // switch (choose) {
+    //     case 1:
+    //         let mangname = new Array();
+    //         for (let i = 1; i < 3; i++) {
+    //             let namecustomer = prompt("Enter name customer no" + i);
+    //             mangname.push(namecustomer);
+    //
+    //         }
+    //         g = '';
+    //         for (let j = 0; j < mangname.length; j++) {
+    //             g += (j + 1) + "." + mangname[j] + "\n";
+    //         }
+    //         alert(g);//in mangname theo thu tu
+    //         // strname = mangname.join(' ');
+    //         // alert(mangname);
+    //         // choose;
+    //         break;
+    //     case 2:
+    //         let mangdelete = ["hoang", "tu", "trinh", "phuong", "thanh"];
+    //         let k = '';
+    //         for (let j = 0; j < mangdelete.length; j++) {
+    //             k += (j + 1) + "." + mangdelete[j] + "\n";
+    //         }
+    //         //  alert(k);
+    //         let deletecustomer = parseInt(prompt("choose customer your Delete" + "\n" + k));
+    //         deletecustomer = deletecustomer - 1;
+    //         let h = '';
+    //         //    alert(deletecustomer);
+    //         for (let i = 0; i < mangdelete.length; i++) {
+    //             //  console.log(mangdelete[2]);
+    //             if (deletecustomer == i) {
+    //                 mangdelete.splice(i, 1);
+    //             }
+    //             h += (i + 1) + "." + mangdelete[i] + "\n";
+    //         }
+    //         alert(h);
+    //         break;
+    //
+    // }
+
+
+    // function AddNewCustomer() {
+    //
+    // }
+    //
+    // function DisplayInfomationCustomer() {
+    //
+    // }
+    //
+    // function EditInfomationCustomer() {
+    //
+    // }
+    //
+    // function DeleteCustomer() {
+    //
+    // }
+    //
+    // function Exit() {
+    //
+    // }
+    displayMainMenu();
+</script>
+</body>
+</html>

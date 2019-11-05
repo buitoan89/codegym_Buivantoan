@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>Fahrenheit</label>
+<input type="number" id="doF" onchange="getDoC(this.value)">
+<br>
+<label id="doC">Celsius:</label>
+<script>
+    function getDoC(doF) {
+        document.getElementById("doC").innerHTML = "Celsius:" + (doF - 32) / 1.8;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let choose;
+    let arrInfo = [];
+    function displayMainMenu() {
+        choose = parseInt(prompt("1.Add new customer" + "\n" +
+            "2.Display Infomation Customer" + "\n" +
+            "3.EditInfomationCustomer" + "\n" +
+            "4.Delete customer" + "\n" +
+            "5.Exit"));
+
+        switch (choose) {
+            case 1 : addNewCustomer();break;
+            case 2 : displayCustomers();break;
+            case 3 : editCustomer();break;
+        }
+    }
+
+
+
+    function addNewCustomer() {
+
+        let arrListCustomer = [];
+        let nameCustomer = prompt("Enter name customer", "");
+        let idCard = prompt("Enter id card customer", "");
+        let birth = prompt("Enter birthday customer", "");
+        let email = prompt("Enter email customer");
+        let address = prompt("Enter adrress customer");
+        let typeCustom = prompt("Enter type customer", "");
+        let discount = prompt("Enter discount", "");
+        let acconpanying = prompt("Enter number of Accompanying", "");
+        let typeRoom = prompt("Enter type room", "");
+        let rentDay = prompt("Enter rent day", "");
+        let typeService = prompt("Enter type service", "");
+
+        arrListCustomer.push(nameCustomer);
+        arrListCustomer.push(idCard);
+        arrListCustomer.push(birth);
+        arrListCustomer.push(email);
+        arrListCustomer.push(address);
+        arrListCustomer.push(typeCustom);
+        arrListCustomer.push(discount);
+        arrListCustomer.push(acconpanying);
+        arrListCustomer.push(typeRoom);
+        arrListCustomer.push(rentDay);
+        arrListCustomer.push(typeService);
+        arrInfo.push(arrListCustomer);
+        displayMainMenu();
+    }
+    let customerInfo;
+    let nameId="";
+    function displayCustomers() {
+        for (let i = 0;i<arrInfo.length;i++){
+         nameId += (i+1) + "."+"Name:"+arrInfo[i][0]+ "   "+ "id Card:"+arrInfo[i][1]+"\n";
+        }
+         customerInfo = parseInt(prompt(nameId + (arrInfo.length+1) +"Back to menu"));
+         for (let j = 0 ; j<arrInfo.length;j++){
+             if (customerInfo-1 == j ){
+                 alert(arrInfo[j]);
+             }else {
+                 displayMainMenu();
+             }
+         }
+
+
+    }
+    let editInfoCustomer;
+    let g="";
+    function editCustomer() {
+        for (let i = 0;i<arrInfo.length;i++){
+            nameId += (i+1) + "."+"Name:"+arrInfo[i][0]+ "   "+ "id Card:"+arrInfo[i][1]+"\n";
+        }
+        customerInfo = parseInt(prompt(nameId + (arrInfo.length+1) +"Back to menu"));
+        for (let j = 0 ; j<arrInfo.length;j++){
+            if (customerInfo-1 == j ){
+                for (let k = 0; k < arrInfo[j].length; k++) {
+                    g += (k + 1) + "." + arrInfo[j][k] + "\n";
+                }
+                editInfoCustomer = prompt(g);
+                edit = parseInt(prompt(text));
+                switch (edit) {
+
+                    case 1: nameCustomer = prompt("Enter name customer", "");
+                    case 2: idCard = prompt("Enter id card customer", "");break;
+                    case 3: birth = prompt("Enter birthday customer", "");;break;
+                    case 4: email = prompt("Enter email customer");break;
+                    case 5: address = prompt("Enter adrress customer");break;
+                    case 6: typeCustom = prompt("Enter type customer", "");break;
+                    case 7: discount = prompt("Enter discount", "");break;
+                    case 8: acconpanying = prompt("Enter number of Accompanying", "");break;
+                    case 9: typeRoom = prompt("Enter type room", "");break;
+                    case 10: rentDay = prompt("Enter rent day", "");break;
+                    case 11: typeService = prompt("Enter type service", "");break;
+                }
+                //khai báo lại thông tin customer
+                text = "1.Name customer :" + name + "\n" +
+                    "2.Id card customer :" + id_card + "\n" +
+                    "3.Birthday customer :" + birth + "\n" +
+                    "4.Email customer:" + email + "\n" +
+                    "5.Adrress customer :" + address + "\n" +
+                    "6.Type customer :" + type_custom + "\n" +
+                    "7.Discount :" + discuont + "\n" +
+                    "8.number of Accompanying :" + acconpanying + "\n" +
+                    "9.Type room :" + type_room + "\n" +
+                    "10.Rent day :" + rent_day + "\n" +
+                    "11.Type service :" + type_service + "\n" +
+                    //hiển thị lại thông tin customer
+                    alert(text);break;
+
+
+            }else {
+                displayMainMenu();
+            }
+        }
+
+    }
+    displayMainMenu();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so nguyen to</title>
+</head>
+<body>
+<script>
+  function minArray(arr) {
+      if (arr.length = 0){
+          return "Array null";
+      }
+
+      let min = arr[0];
+      for (i = 0; i<arr.length;i++){
+          if (arr[i]<min) {
+              min = arr[i]
+          }
+      }
+      return  min
+  }
+    let arr1 = [-1,2,3,6,-9];
+    let min = minArray(arr1);
+</script>
+</body>
+</html>

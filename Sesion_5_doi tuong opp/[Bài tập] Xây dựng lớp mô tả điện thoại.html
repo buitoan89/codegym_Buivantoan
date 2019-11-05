@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả điện thoại</title>
+</head>
+<body>
+<p id="chuyentrangthai"></p>
+<input type="button" id="congtac" value="on_off" onclick="switchOnOff()">
+<input  type="button" value="soantin" onclick="soantinnhan()">
+<p id="soantinnhan"></p>
+hộp thư đến :
+<p id="nhantinnhan"></p>
+tin nhắn gửi là:
+<p id="tinnhangui"></p>
+<script>
+    
+    let  Mobile = function(status) {
+          this.status = status;
+          };
+    let mobile = new Mobile(true);
+    function switchOnOff(){
+        mobile.status = !mobile.status;
+        if (mobile.status == true){
+            document.getElementById("chuyentrangthai").innerHTML = "trang thai bat";
+        } else {
+            document.getElementById("chuyentrangthai").innerHTML = "trang thai tat"
+        }
+    }
+
+    function soantinnhan() {
+         //document.getElementById("soantinnhan").style.text = mobile.status;
+
+    document.getElementById("soantinnhan").innerHTML="<div><textarea id='tinnhan' style='width: 200px;height: 300px'></textarea></div>"
+        + "<div><input onclick='guitinnhan()' type='button' value='gửi tin nhắn'></div>"
+    }
+
+    let tinnhan = "i love you";
+    let mang = new Array();
+    function nhantinnhan() {
+          mang.push(tinnhan);
+        mobile.status = mang;
+        document.getElementById("nhantinnhan").innerHTML = mobile.status;
+    }
+    nhantinnhan();
+
+    function guitinnhan() {
+        mobile.status = document.getElementById('tinnhan').value ;
+        document.getElementById("tinnhangui").innerHTML = mobile.status;
+
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Validate email</title>
+</head>
+<body>
+<script>
+    let mail;
+    let a = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+  do{
+         mail = prompt("nhap mail");
+    } while (!a.test(mail))
+</script>
+</body>
+</html>

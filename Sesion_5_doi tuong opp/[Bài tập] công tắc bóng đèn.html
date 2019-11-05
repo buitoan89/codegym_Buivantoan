@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>công tắc bóng đèn</title>
+</head>
+<body>
+<div><img id="chuyen" src="Den_Tat.gif" alt="q"></div>
+<input type="button" onclick="Switchbotton()" value="on/off">
+    <script>
+        let Electriclam = function (status) {
+            this.status = status;
+        }
+        let lamp = new Electriclam();
+        function Switchbotton() {
+           // lamp.status = !lamp.status;
+           //  let Switchoff = function () {
+           //      document.getElementById("chuyen").src = "Den_Tat.gif"
+           //  }
+           //  let Switchon = function () {
+           //      document.getElementById("chuyen").src = "Den_Sang.gif"
+           //  }
+            if (lamp.status == true){
+                document.getElementById("chuyen").src = "Den_Sang.gif"
+            }else {
+                document.getElementById("chuyen").src = "Den_Tat.gif"
+            }
+
+        }
+
+    </script>
+</body>
+</html>

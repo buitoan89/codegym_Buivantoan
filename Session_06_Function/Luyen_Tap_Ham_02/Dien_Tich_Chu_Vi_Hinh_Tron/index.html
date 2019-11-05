@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input oninput="bankinh(this.value)" type="number">
+    <br>
+    <span>dien tich:</span><div id="dientich"></div>
+    <span>chu vi:</span><div id="chuvi"></div>
+    <script>
+        function bankinh(number) {
+            number=parseInt(number);
+            var pi=3.14;
+            document.getElementById("dientich").innerHTML=number*number*pi;
+            document.getElementById("chuvi").innerHTML=number*2*pi;
+        }
+    </script>
+</body>
+</html>
