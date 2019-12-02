@@ -25,7 +25,7 @@ public class MainController {
             case "1": AddNewService();break;
             case "2": ShowSevice();break;
             case "3": AddNewCustomer();break;
-            case "4": ShowInfor();break;
+            case "4": ShowInforCustomer();break;
             case "5": System.exit(0);
             default:
                 System.out.println("Error. Back to menu");
@@ -62,9 +62,18 @@ public class MainController {
 
     public static void AddNewCustomer(){
         System.out.println("\n.....................");
-        Services cutomer = new Customer();
+        Customer cutomer = new Customer();
+        //cutomer.setId(UUID.randomUUID().toString().replace("-",""));
+        cutomer.setId(UUID.randomUUID().toString().replace("-",""));
+        while(!FuncValidation.CheckNameService(cutomer.getNameCustomer())){
+            System.out.println("Name service is invalid please try agiant!");
+            System.out.println("Enter name customer");
+            cutomer.setNameCustomer(sc.nextLine());
+
+        }
         System.out.println("Enter name customer:");
         ((Customer)cutomer).setNameCustomer(sc.nextLine());
+       // gender customer
 
         System.out.println(" Enter gender customer:");
         ((Customer)cutomer).setRender(sc.nextLine());
@@ -87,13 +96,22 @@ public class MainController {
         System.out.println("Enter birthday customer: (dd/mm/yy)");
         ((Customer)cutomer).setBirthday(sc.nextLine());
 
+      ArrayList<Customer> listCustomer = FuncWriteFileCSV.getCustomerFromCSV();
+        //sau khi thuc hien xong thi thuc hien them vao danh sach lish villa do
+        listCustomer.add((Customer)cutomer);
+        //sau do luu vao file villa.csv
+       FuncWriteFileCSV.writeCustomerToFIleCSV(listCustomer);
+        System.out.println("\nAdd Customer: "+ cutomer.getNameCustomer() + " Customerfull!!" );
+        sc.nextLine();
         backMainMenu();
-
-
-
     }
-    private static void ShowInfor(){
-ArrayList<Customer> listCustomer =
+    public static void ShowInforCustomer(){
+     ArrayList<Customer> listCustomer = FuncWriteFileCSV.getCustomerFromCSV();
+        for (Customer customer: listCustomer) {
+            System.out.println("\n-------");
+            System.out.println(customer.toString());
+            System.out.println("\n--------");
+        }
 
     }
 

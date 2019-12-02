@@ -39,6 +39,11 @@ public class FuncValidation {
         }
     }
 
+    public static boolean CheckValedGender(String str){
+        GenderException ="";
+        return
+    }
+
     public static void main(String[] args) {
         CheckValedNumberDouble("Nhap vao so double","sai kieu du lieu");
 

@@ -2,7 +2,8 @@ package models;
 
 import java.util.Date;
 
-public class Customer extends Services{
+public class Customer {
+  private String id;
   private   String nameCustomer;
   private   String birthday;
   private   String render;
@@ -15,7 +16,8 @@ public class Customer extends Services{
     public Customer() {
     }
 
-    public Customer(String nameCustomer, String birthday, String render, int idCart, int phoneNumber, String email, String typeCustomer, String adress) {
+    public Customer(String id, String nameCustomer, String birthday, String render, int idCart, int phoneNumber, String email, String typeCustomer, String adress) {
+        this.id = id;
         this.nameCustomer = nameCustomer;
         this.birthday = birthday;
         this.render = render;
@@ -26,16 +28,12 @@ public class Customer extends Services{
         this.adress = adress;
     }
 
-    public Customer(String id, String name, double areaUsed, double rentalCost, int maxNumberOfPeaple, String typeRent, String nameCustomer, String birthday, String render, int idCart, int phoneNumber, String email, String typeCustomer, String adress) {
-        super(id, name, areaUsed, rentalCost, maxNumberOfPeaple, typeRent);
-        this.nameCustomer = nameCustomer;
-        this.birthday = birthday;
-        this.render = render;
-        this.idCart = idCart;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.typeCustomer = typeCustomer;
-        this.adress = adress;
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getNameCustomer() {
@@ -103,15 +101,16 @@ public class Customer extends Services{
     }
 
     @Override
-    public String showInfor() {
-        return "\n name customer:"+ this.nameCustomer +
-                "\n gender customer:"+ this.render+
-                "\n id card customer"+ this.idCart+
-                "\n phone number:"+ this.phoneNumber+
-                "\n mail customer" + this.email+
-                "\n type customer:" + this.typeCustomer+
-                "\n adress customer:"+ this.adress+
-                "\n birthday customer"+ this.birthday;
+    public String toString() {
+            return "\n Id:"+ this.id +
+                    "\n name customer:"+ this.nameCustomer +
+                    "\n gender customer:"+ this.render+
+                    "\n id card customer"+ this.idCart+
+                    "\n phone number:"+ this.phoneNumber+
+                    "\n mail customer" + this.email+
+                    "\n type customer:" + this.typeCustomer+
+                    "\n adress customer:"+ this.adress+
+                    "\n birthday customer"+ this.birthday;
     }
 }
 
