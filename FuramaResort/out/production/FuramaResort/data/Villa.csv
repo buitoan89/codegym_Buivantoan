@@ -1,0 +1,6 @@
+id,name,areaUsed,rentalCost,maxNumberOfPeaple,typeRent,roomStandard,convenientDescription,areaPool,numberOfFloors
+2057b27dffe9427aa2cb1eb6dc8f50d2,Toan,32.0,1.0,1,1,1,1,0.0,1
+08609ae756ba474f948a851de0c37032,Toan,32.0,12.0,12,12,12,12,0.0,12
+9858cc469fda460688c8543f35e4b74f,Toan B,32.0,12.0,12,12,12,12,0.0,12
+e837a0cb196044fabf47e861080bd083,Toan,32.0,12.0,12,12,12,12,0.0,12
+099f51d11c14456b82c0ee3ff14a20e8,Toan,32.0,12.0,12,12,12,12,0.0,1
