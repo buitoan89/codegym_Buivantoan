@@ -14,7 +14,7 @@ public class FuncValidation {
 
     //Check number double
     public static double CheckValedNumberDouble(String content, String errMes) {
-
+//^([mM][Aa][lL][eE])|([fF][eE][mM][Aa][lL][eE])|([uU]nkown)$
         while (true) {
             try {
                 sc = new Scanner(System.in);
@@ -39,10 +39,10 @@ public class FuncValidation {
         }
     }
 
-    public static boolean CheckValedGender(String str){
-        GenderException ="";
-        return
-    }
+//    public static boolean CheckValedGender(String str){
+//        GenderException ="";
+//        return
+//    }
 
     public static void main(String[] args) {
         CheckValedNumberDouble("Nhap vao so double","sai kieu du lieu");
