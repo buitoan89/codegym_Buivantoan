@@ -4,14 +4,15 @@ import java.util.Date;
 
 public class Customer {
   private String id;
-  private   String nameCustomer;
-  private   String birthday;
-  private   String render;
-  private  int idCart;
-  private   int phoneNumber;
-  private    String email;
-  private    String typeCustomer;
-  private  String adress;
+  private String nameCustomer;
+  private String birthday;
+  private String render;
+  private int idCart;
+  private int phoneNumber;
+  private String email;
+  private String typeCustomer;
+  private String adress;
+  private Services services;
 
     public Customer() {
     }
@@ -28,8 +29,17 @@ public class Customer {
         this.adress = adress;
     }
 
+
     public String getId() {
         return id;
+    }
+
+    public Services getServices() {
+        return services;
+    }
+
+    public void setServices(Services services) {
+        this.services = services;
     }
 
     public void setId(String id) {
@@ -52,15 +62,15 @@ public class Customer {
         this.birthday = birthday;
     }
 
-    public String getRender() {
+    public String getGender() {
         return render;
     }
 
-    public void setRender(String render) {
+    public void setGender(String render) {
         this.render = render;
     }
 
-    public int getIdCart() {
+    public int getIdCard() {
         return idCart;
     }
 

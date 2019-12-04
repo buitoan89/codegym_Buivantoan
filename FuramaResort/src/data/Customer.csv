@@ -1,3 +1,6 @@
 id,nameCustomer,birthday,render,idCart,phoneNumber,email,typeCustomer,adress
-e2340e6dc8254066a539ab54b4ed50f3,toan,12,nam,12,12,12,12,12
-dc712425602540cbbcf699b2f7366d99,toan,12,nam,12,12,12,12,12
+e2340e6dc8254066a539ab54b4ed50f3,toan,12,,12,12,12,12,12
+dc712425602540cbbcf699b2f7366d99,toan,12,,12,12,12,12,12
+f94dbf909caf42efa1414606e906d12d,Toan,08/10/1989,,123,123,toan@gmail.com,12,12
+435415da897f4951ad5604cba3288f05,Toan,12/12/2000,,12,12,toan@gmail.com,12,12
+ea52b3000a57478491f62968e21addcc,Dung,08/10/1999,female,12,12,dung@gmail.com,12,12
