@@ -221,6 +221,94 @@ select khachhang.HoTen, count(khachhang.HoTen) as 'dem' from khachhang group by 
 select khachhang.HoTen from khachhang union select khachhang.HoTen from khachhang;
   
 
+-- 9.	Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2019
+--  thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
+select temp.month,count(month(hopdong.ngaylamhopdong)) as so_khach_hang_dang_ky,sum(hopdong.tongtien) as tong_tien
+from
+(select 1 as month
+union select 2 as month
+union select 3 as month
+union select 4 as month
+union select 5 as month
+union select 6 as month
+union select 7 as month
+union select 8 as month
+union select 9 as month
+union select 10 as month
+union select 11 as month
+union select 12 as month) as temp
+left join hopdong
+on month(hopdong.ngaylamhopdong)=temp.month
+left join khachhang
+on khachhang.idkhachhang=hopdong.idkhachhang
+where year(hopdong.ngaylamhopdong)=2019 or month(hopdong.ngaylamhopdong) is null
+group by temp.month
+order by temp.month asc;
+
+select hopdong.ngaylamhopdong  from hopdong;
+
+select temp.month,hopdong.NgayLamHopDong
+from
+(select 1 as month
+union select 2 as month
+union select 3 as month
+union select 4 as month
+union select 5 as month
+union select 6 as month
+union select 7 as month
+union select 8 as month
+union select 9 as month
+union select 10 as month
+union select 11 as month
+union select 12 as month) as temp
+left join hopdong
+on month(hopdong.ngaylamhopdong)=temp.month;
+
+select temp.month, khachhang.HoTen, count(month(hopdong.ngaylamhopdong)) as so_khach_hang_dang_ky,sum(hopdong.tongtien) as tong_tien
+from
+(select 1 as month
+union select 2 as month
+union select 3 as month
+union select 4 as month
+union select 5 as month
+union select 6 as month
+union select 7 as month
+union select 8 as month
+union select 9 as month
+union select 10 as month
+union select 11 as month
+union select 12 as month) as temp
+left join hopdong
+on month(hopdong.ngaylamhopdong)=temp.month
+left join khachhang
+on khachhang.idkhachhang=hopdong.idkhachhang
+where year(hopdong.ngaylamhopdong)=2019 or month(hopdong.ngaylamhopdong) is null
+group by temp.month
+order by temp.month asc;
+
+ -- 10.	Hiển thị thông tin tương ứng với từng Hợp đồng thì đã sử dụng bao nhiêu Dịch vụ đi kèm. 
+ -- Kết quả hiển thị bao gồm IDHopDong, NgayLamHopDong, NgayKetthuc, TienDatCoc, 
+ -- SoLuongDichVuDiKem (được tính dựa trên việc count các IDHopDongChiTiet).
+ 
+ select hopdong.IDHopDong,hopdong.NgayLamHopDong,hopdong.NgayKetThuc,hopdong.TienDatCoc,
+ hopdongchitiet.IDDichVuDiKem,count(hopdongchitiet.IDDichVuDiKem) as 'soluongdichvudikem' 
+from hopdong 
+inner join hopdongchitiet on hopdong.IDHopDong = hopdongchitiet.IDHopDong
+group by hopdong.IDHopDong;
+
+-- 11.	Hiển thị thông tin các Dịch vụ đi kèm đã được sử dụng bởi những Khách hàng có 
+-- TenLoaiKhachHang là “Diamond” và có địa chỉ là “Vinh” hoặc “Quảng Ngãi”.
+
+select khachhang.HoTen,dichvudikem.TenDichVuDiKem, loaikhach.TenLoaiKhach, khachhang.DiaChi from loaikhach
+inner join khachhang on khachhang.IDLoaiKhach = loaikhach.IDLoaiKhach
+inner join hopdong on hopdong.IDKhachHang = khachhang.IDKhachHang
+inner join hopdongchitiet on hopdongchitiet.IDHopDong = hopdong.IDHopDong
+inner join dichvudikem on dichvudikem.IDDichVuDiKem = hopdongchitiet.IDDichVuDiKem
+where loaikhach.TenLoaiKhach = 'Diamond' and khachhang.DiaChi in ('Vinh','Đà Nẵng') 
+group by khachhang.HoTen
+
+
+
 
 
 -- inner join loaikhach 
