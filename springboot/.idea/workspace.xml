@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99d77f0d-a9a7-49c9-8d81-97fa7bfa481d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Emailvalidate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/.idea/modules/Emailvalidate.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/java/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/EmailvalidateGradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/baitapnaveb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/baitapnaveb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/.idea/modules/customer-manager.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/Controller/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/Controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/java/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/customer-manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demo_create_project_springboot/src/main/java/com/codegym/demo_create_project_springboot/controllers/helloCOntroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demo_create_project_springboot/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/java/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/classes/Controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/classes/Controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoab/target/demoab-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiavivoisanwitch/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiavivoisanwitch/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiavivoisanwitch/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiavivoisanwitch/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/build/classes/java/main/controller/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/build/libs/hienthigiothegioi-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/java/Controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/webapp/WEB-INF/views/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/hienthigiothegioi/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/thuchanhkiemtramail.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/java/Controller/MyFileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/java/form/MyUploadForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/classes/Controller/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/classes/Controller/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/uploadfile/target/uploadfile-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/src/controllers/SanwitchCondimentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/vidu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/vidu/web/WEB-INF/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/controllers/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method6.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method7.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method8.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/.idea/artifacts/login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login/.idea/artifacts/login_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/out/artifacts/requestmappingMVC_war_exploded/WEB-INF/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/out/artifacts/requestmappingMVC_war_exploded/WEB-INF/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/out/artifacts/requestmappingMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/out/artifacts/requestmappingMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/out/production/requestmappingMVC/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/out/production/requestmappingMVC/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/src/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/src/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method4.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../requestmappingMVC/web/WEB-INF/views/method4.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VBtujSmmrlL4vPdlrXujpnZsHd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99d77f0d-a9a7-49c9-8d81-97fa7bfa481d" name="Default Changelist" comment="" />
+      <created>1576738540883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576738540883</updated>
+      <workItem from="1576738542492" duration="125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

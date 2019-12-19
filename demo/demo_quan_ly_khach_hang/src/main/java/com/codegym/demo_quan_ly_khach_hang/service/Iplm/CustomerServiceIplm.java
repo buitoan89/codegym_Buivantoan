@@ -1,0 +1,38 @@
+package com.codegym.demo_quan_ly_khach_hang.service.Iplm;
+
+import com.codegym.demo_quan_ly_khach_hang.model.Customer;
+import com.codegym.demo_quan_ly_khach_hang.repository.CustomerRepository;
+import com.codegym.demo_quan_ly_khach_hang.service.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class CustomerServiceIplm implements CustomerService {
+
+    @Autowired
+    private CustomerRepository customerRepository;
+
+    @Override
+    public List<Customer> findAll() {
+        return customerRepository.findAll();
+    }
+
+    @Override
+    public Customer findById(Long id) {
+        return customerRepository.findById(id);
+    }
+
+
+    @Override
+    public void save(Customer customer) {
+        customerRepository.save(customer);
+    }
+
+    @Override
+    public void remove(Long id) {
+        customerRepository.remove(id);
+    }
+
+}
