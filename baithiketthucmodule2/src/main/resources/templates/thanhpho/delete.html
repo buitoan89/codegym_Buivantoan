@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete province</title>
+</head>
+<body>
+<form th:action="@{/delete-thanhpho}" th:object="${thanhpho}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>ban co chac chan muon xoa thanh pho:</td>
+            <td th:text="${thanhpho.tenThanhPho}"></td>
+        </tr>
+        <tr>
+
+            <td><input type="submit" value="xoa"></td>
+        </tr>
+    </table>
+</form>
+<form th:action="@{/list-thanhpho}" method="get">
+    <td><input type="submit" value="Thoat"></td>
+</form>
+</body>
+</html>

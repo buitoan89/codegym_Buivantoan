@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/list">danh sách sp</a>
+<a href="/show_cart">giỏ hàng</a>
+<h1>Sản Phẩm</h1>
+<th:block th:if="${messenger}">
+    <h3> <p th:text="${messenger}"></p></h3>
+</th:block>
+<form th:action="@{/add-to-cart/__${products.id}__ }" method="post">
+            <div>ten sp</div>
+            <div th:text="*{products.nameProduce}"></div>
+            <div>gia</div>
+            <div th:text="*{products.price}"></div>
+            <div>thong tin sp</div>
+    <input type="submit" value="thêm sp">
+<!--            <td><a th:href="@{/detail-product/__${product.id}__ }">detail</a></td>-->
+</form>
+</body>
+</html>
+
+<!--<form th:action="@{/}" th:object="${}" method="post">-->
+<!--    <input th:type="hidden" name="id" th:field="*{id}">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td>First name:</td>-->
+<!--            <td><input type="text" th:field="*{firstName}"/></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>Last name:</td>-->
+<!--            <td><input type="text" th:field="*{lastName}"/></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td></td>-->
+<!--            <td><input type="submit" value="Update customer"></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</form>-->

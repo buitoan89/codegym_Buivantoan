@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3cf8c44-4b5a-4ef2-aa88-9de1144e629d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../UngDungQuanLyKhachHang_PhanTrangVaTimKiem.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/BaithiketthucmoduleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/controller/ThanhPhoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/model/Quocgia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/model/ThanhPho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/ripository/ThanhPhoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/service/ThanhPhoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/java/com/codegym/baithiketthucmodule/service/iplm/ThanhPhoServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/templates/thanhpho/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/templates/thanhpho/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/templates/thanhpho/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/templates/thanhpho/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/main/resources/templates/view/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baithiketthucmodule2/src/test/java/com/codegym/baithiketthucmodule/BaithiketthucmoduleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/DemoCrudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/ripository/CustomerRipository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/java/com/example/demo_crud/service/ipml/CustomerServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/dangnhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/dangnhapthanhcong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_crud/src/test/java/com/example/demo_crud/DemoCrudApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/DemoThuchanhcopyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/controller/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/repository/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/service/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/service/impl/CityServiecImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/java/com/example/demo_thuchanhcopy/service/impl/CountryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/resources/templates/city/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/resources/templates/city/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/resources/templates/city/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/main/resources/templates/city/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thuchanhcopy/src/test/java/com/example/demo_thuchanhcopy/DemoThuchanhcopyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/DemoThucthanhCustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/service/iplm/CustomerServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/java/com/nhatoan/demo_thucthanh_customer/service/iplm/ProvinceServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/province/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/main/resources/templates/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_thucthanh_customer/src/test/java/com/nhatoan/demo_thucthanh_customer/DemoThucthanhCustomerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/CasestudyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/controller/BookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/controller/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/controller/KhachHangController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/entity/FuramaDichvu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/entity/FuramaHopDong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/entity/FuramaKhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/entity/FuramaLoaiDichVu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/repository/DichVuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/repository/HopDongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/repository/KhachHangRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/DichVuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/HopDongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/KhachHangService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/serviceiplm/DichVuServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/serviceiplm/HopDongServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/java/com/codegymdanang/casestudy/service/serviceiplm/KhachHangIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/static/villar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/static/villar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/static/villar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/dichvu/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/dichvu/bookingSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/dichvu/dichvuchitiet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/dichvu/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/khachhang/dangkythanhcong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/main/resources/templates/khachhang/trangdangky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/casestudy/src/test/java/com/codegymdanang/casestudy/CasestudyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/src/main/java/com/example/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_Validateform/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/java/com/codegym/demo_customer_validation/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/java/com/codegym/demo_customer_validation/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/java/com/codegym/demo_customer_validation/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_customer_validation/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/java/com/codegym/demo_demluotviewtrang/DemoDemluotviewtrangApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/java/com/codegym/demo_demluotviewtrang/controller/CounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/java/com/codegym/demo_demluotviewtrang/model/MyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_demluotviewtrang/src/test/java/com/codegym/demo_demluotviewtrang/DemoDemluotviewtrangApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/model/MyCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/java/com/codegym/demo_gio_hang/service/iplm/ProductServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/resources/templates/show_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/resources/templates/show_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_gio_hang/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_luu_ten_nguoi_dung/src/main/java/com/codegym/demo_luu_ten_nguoi_dung/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_luu_ten_nguoi_dung/src/main/java/com/codegym/demo_luu_ten_nguoi_dung/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_luu_ten_nguoi_dung/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/DemoQlkhDungRestfullApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/java/com/example/demo_qlkh_dung_restfull/service/iplm/CustomerServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_qlkh_dung_restfull/src/test/java/com/example/demo_qlkh_dung_restfull/DemoQlkhDungRestfullApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/model/Provice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/ripository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/ripository/ProviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/service/ProviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/service/iplm/CustomerServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/java/com/example/demo_thuc_hanh_springboot/service/iplm/ProviceServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_thuc_hanh_springboot/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_ung_dung_gio_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/java/com/codegym/demo_validate_info_use/DemoValidateInfoUseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/java/com/codegym/demo_validate_info_use/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/demo_validate_info_use/src/test/java/com/codegym/demo_validate_info_use/DemoValidateInfoUseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/QuanLyKhTinhApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/repository/iplm/CustomerRepositoryIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/java/com/codegym/quan_ly_kh_tinh/service/iplm/CustomerServiceIplm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/quan_ly_kh_tinh/src/test/java/com/codegym/quan_ly_kh_tinh/QuanLyKhTinhApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo_quan_ly_khach_hang/src/main/java/com/codegym/demo_quan_ly_khach_hang/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/demo_quan_ly_khach_hang/src/main/java/com/codegym/demo_quan_ly_khach_hang/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VEF2ACtMW5At3h0Dmfj1968ub4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codegym\WBD\Projects\my-new-project\src\B17_SpringDataReposity\ThucHanh\UngDungQuanLyKhachHang_PhanTrangVaTimKiem\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="QuanLyKhachHangPhanTrangVaTimKiemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="UngDungQuanLyKhachHang_PhanTrangVaTimKiem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.cms.UngDungQuanLyKhachHangPhanTrangVaTimKiemSpringBootApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3cf8c44-4b5a-4ef2-aa88-9de1144e629d" name="Default Changelist" comment="" />
+      <created>1576810137457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576810137457</updated>
+      <workItem from="1576810139801" duration="2097000" />
+      <workItem from="1576828774375" duration="4585000" />
+      <workItem from="1576851122227" duration="344000" />
+      <workItem from="1577021403263" duration="2756000" />
+      <workItem from="1577068354913" duration="88000" />
+      <workItem from="1577414631460" duration="11307000" />
+      <workItem from="1577435019598" duration="242000" />
+      <workItem from="1577441804349" duration="873000" />
+      <workItem from="1577529622191" duration="5079000" />
+      <workItem from="1577548541777" duration="1084000" />
+      <workItem from="1577584008506" duration="14090000" />
+      <workItem from="1577669748032" duration="1517000" />
+      <workItem from="1577687355151" duration="4390000" />
+      <workItem from="1577760155077" duration="13573000" />
+      <workItem from="1577801397569" duration="5491000" />
+      <workItem from="1578016860225" duration="3632000" />
+      <workItem from="1578115446059" duration="592000" />
+      <workItem from="1578362701462" duration="4924000" />
+      <workItem from="1578379436621" duration="5569000" />
+      <workItem from="1578404148397" duration="7174000" />
+      <workItem from="1578468793394" duration="7338000" />
+      <workItem from="1578535197795" duration="3000" />
+      <workItem from="1578535522389" duration="3000" />
+      <workItem from="1578535618388" duration="83000" />
+      <workItem from="1578535970783" duration="4000" />
+      <workItem from="1578536031568" duration="6000" />
+      <workItem from="1578536719259" duration="3237000" />
+      <workItem from="1578542528610" duration="172000" />
+      <workItem from="1578542758423" duration="70000" />
+      <workItem from="1578542866036" duration="899000" />
+      <workItem from="1578559739797" duration="1293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

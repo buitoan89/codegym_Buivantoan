@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:each="dichvu:${favorate}">
+    <p th:text="${dichvu.getTendichvu()}"></p>
+    <p th:text="${dichvu.getId()}"></p>
+    <p th:text="${dichvu.getSotang()}"></p>
+    <p th:text="${dichvu.getChiphithue()}"></p>
+    <p th:text="${dichvu.getKieuthue_id()}"></p>
+</div>
+</body>
+</html>

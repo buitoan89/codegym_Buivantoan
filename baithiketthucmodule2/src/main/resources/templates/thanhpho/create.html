@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>tao thanh pho</title>
+</head>
+<body>
+<h1>tao thanh pho</h1>
+<p>
+    <a href="/list-thanhpho">Thanh pho list</a>
+</p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/create-thanhpho}" th:object="${thanhpho}" method="post">
+    <table>
+        <tr>
+            <td>Ten Thanh Pho:</td>
+            <td><input type="text" th:field="*{tenThanhPho}"/></td>
+        </tr>
+        <tr>
+            <td>Dien Tich:</td>
+            <td><input type="text" th:field="*{dienTich}"/></td>
+        </tr>
+        <tr>
+            <td>Dan so:</td>
+            <td><input type="text" th:field="*{danSo}"/></td>
+        </tr>
+        <tr>
+            <td>GDP:</td>
+            <td><input type="text" th:field="*{GDP}"/></td>
+        </tr>
+
+        <tr>
+            <td>gioi thieu:</td>
+            <td><textarea th:field="*{moTa}"></textarea></td>
+
+        </tr>
+
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Create customer"></td>
+        </tr>
+        <tr>
+            <td>Quoc gia:</td>
+            <td>
+                <select th:field="*{quocgia}">
+                    <option th:each="p : ${provinces}" th:value="${p.id}" th:text="${p.name}"></option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

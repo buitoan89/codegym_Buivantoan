@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-5">
+    <div class="container">
+        <h2>Stacked form</h2>
+        <form action="/booking" method="post">
+            <input type="hidden" th:value="${dichvu.getId()}" name="id">
+            <div class="form-group">
+                <label for="tendichvu">Ten dich vu:</label>
+                <input type="text" class="form-control" id="tendichvu" name="tendichvu" th:value="${dichvu.getTendichvu()}">
+            </div>
+            <div class="form-group">
+                <label for="dientich">dien tich su dung:</label>
+                <input type="text" class="form-control" id="dientich"  name="dientich" th:value="${dichvu.getDientich()} + m2">
+            </div>
+            <div class="form-group">
+                <label for="chiphithue">chi phi thue:</label>
+                <input type="text" class="form-control" id="chiphithue"  name="chiphithue" th:value="${dichvu.getChiphithue()}">
+            </div>
+            <div class="form-group">
+                <label for="songuoi">so nguoi toi da:</label>
+                <input type="text" class="form-control" id="songuoi"  name="songuoi" th:value="${dichvu.getSonguoitoida()}">
+            </div>
+            <div class="form-group">
+                <label for="sotang">so tang:</label>
+                <input type="text" class="form-control" id="sotang"  name="sotang" th:value="${dichvu.getSotang()}">
+            </div>
+            <div class="form-group">
+                <label for="ngaybatdau">ngay bat dau:</label>
+                <input type="Date" class="form-control" id="ngaybatdau"  name="ngaybatdau" >
+            </div>
+            <div class="form-group">
+                <label for="ngayketthuc">ngay ket thuc:</label>
+                <input type="Date" class="form-control" id="ngayketthuc"  name="ngayketthuc" >
+            </div>
+
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

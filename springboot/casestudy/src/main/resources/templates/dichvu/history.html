@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <h2>History booking</h2>
+    <p>The .table-striped class adds zebra-stripes to a table:</p>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>ID Booking</th>
+            <th>ID dich vu</th>
+            <th>ngay bat dau</th>
+            <th>ngay ket thuc</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr th:each="hopdong : ${historyHopDong}">
+            <td th:text="${hopdong.getIdHopDong()}"></td>
+            <td th:text="${hopdong.getIddichvu()}"></td>
+            <td th:text="${hopdong.getNgayLamHopDong()}"></td>
+            <td th:text="${hopdong.getNgayKetThuc()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

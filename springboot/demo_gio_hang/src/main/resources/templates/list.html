@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<a href="/customer-create">chi tiet sp</a>-->
+<h1>Product</h1>
+<table border="1">
+    <tr>
+        <th>ten</th>
+        <th>gia</th>
+        <th>thong tin sp</th>
+
+    </tr>
+    <th:block th:each="product : ${products}">
+        <tr>
+            <td th:text="${product.nameProduce}"></td>
+            <td th:text="${product.price}"></td>
+            <td><a th:href="@{/detail-product/__${product.id}__ }">detail</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>
