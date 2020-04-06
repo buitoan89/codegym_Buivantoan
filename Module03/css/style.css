@@ -1,0 +1,74 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+ 
+/*==Style cho menu===*/
+#menungang ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menungang li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menungang a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menungang a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+
+
+#menudoc ul {
+background: #8AD385;
+width: 250px;
+padding: 0;
+list-style-type: none;
+text-align: left;
+}
+#menudoc li {
+width: auto;
+height: 40px;
+line-height: 40px;
+border-bottom: 1px solid #e8e8e8;
+padding: 0 1em;
+}
+#menudoc li a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+display: block;
+}
+#menudoc li:hover {
+background: #CDE2CD;
+}
+
+.left{
+float: left;
+}
+.main{
+float: right;
+width: 200px;
+height: 200px;
+background-color: #1F568B;
+}
+.clear{
+ clear: both 
+}

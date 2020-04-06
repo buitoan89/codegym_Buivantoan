@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FontSizeEditComponent implements OnInit {
 
   fontSize = 24;
+  background 
 
   onChange(value) {
     this.fontSize = value;
