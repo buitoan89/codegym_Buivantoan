@@ -65,5 +65,4 @@ export class CountdownTimeSetGetComponent implements OnInit {
   constructor() { }
 
 
-
 }

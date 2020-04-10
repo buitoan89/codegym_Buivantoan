@@ -1,0 +1,57 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullname": "Bui Van Toan",
+      "position": "Nhan Vien",
+      "academilevel": "Dai Hoc",
+      "part": "Kinh Doanh",
+      "dateOfBirth": "12/12/1995",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "buivantoan@gmail.com",
+      "phoneNumber": "12345678",
+      "address": "Hai Chau - Da Nang"
+    },
+    {
+      "id": 2,
+      "fullname": "Le Tuan",
+      "position": "Nhan Vien",
+      "academilevel": "Dai Hoc",
+      "part": "Kinh Doanh",
+      "dateOfBirth": "12/12/1995",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "buivantoan@gmail.com",
+      "phoneNumber": "12345678",
+      "address": "Hai Chau - Da Nang"
+    },
+    {
+      "id": 3,
+      "fullname": "Tran Dung",
+      "position": "Nhan Vien",
+      "academilevel": "Dai Hoc",
+      "part": "Kinh Doanh",
+      "dateOfBirth": "12/12/1995",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "buivantoan@gmail.com",
+      "phoneNumber": "12345678",
+      "address": "Hai Chau - Da Nang"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Van A",
+      "email": "nguyenvana@gmail.com",
+      "phoneNumber": "12245635"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyen Van B",
+      "email": "nguyenvanb@gmail.com",
+      "phoneNumber": "12245635"
+    }
+  ]
+}

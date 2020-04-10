@@ -1,5 +1,15 @@
 <app-countdown-time seconds="abc"></app-countdown-time>
 
-<app-countdown-time-set-get seconds="++"></app-countdown-time-set-get>
+<app-countdown-time-set-get seconds="abc"></app-countdown-time-set-get>
 
 <app-countdown-timer-onchanges seconds="abc"></app-countdown-timer-onchanges>
+
+<app-angular-countdown-timer-alias remaining-time="60"></app-angular-countdown-timer-alias>
+
+<app-countdown-timer-event seconds="10" (finish)="finishCountdown()">
+</app-countdown-timer-event>
+<p>{{ countdownMsg }}</p>
+
+<app-angular-countdown-timer-event-alias seconds="10" (timerEnd)="endCountdown()">
+</app-angular-countdown-timer-event-alias>
+<p>{{ countdownAliasMsg }}</p>
